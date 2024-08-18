@@ -1,0 +1,392 @@
+.nen {
+  background-color: rgb(27, 207, 135);
+  height: 80vh;
+  width: 100%;
+
+  display: flex;
+  z-index: 0;
+  overflow: auto; /* Allow scrolling */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
+
+.nen::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.back {
+  background-color: rgb(27, 207, 135);
+}
+
+.menu {
+  height: 14vh;
+  transform: translateY(-0.5vh);
+  width: 100%;
+  background-color: rgb(27, 207, 135);
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.noidung {
+  height: 77vh;
+  width: 100%;
+  background-color: rgb(27, 207, 135);
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.menu2 {
+  height: 9vh;
+  width: 100%;
+  background-color: rgb(27, 207, 135);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divngang {
+  position: center;
+  display: flex;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.khu1 {
+  background-image: url("../public/goc6.jpeg");
+  height: 80vh;
+  width: 35.07278205vh;
+  display: flex;
+  position: relative; /* Position relative to .nengiay */
+
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+.khu11 {
+  background-image: url("../public/goc6.jpeg");
+  height: 80vh;
+  width: 35.07278205vh;
+  display: flex;
+  position: relative; /* Position relative to .nengiay */
+
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+.khu2 {
+  background-image: url("../public/goc5.jpeg");
+  height: 80vh;
+  width: 18.65vh;
+  display: flex;
+  position: relative; /* Position relative to .nengiay */
+
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+.khu22 {
+  background-image: url("../public/goc5.jpeg");
+  height: 80vh;
+  width: 18.65vh;
+  display: flex;
+  position: relative; /* Position relative to .nengiay */
+
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.khu3 {
+  background-image: url("../public/goc4.jpeg");
+  height: 80vh;
+  width: 18.05vh;
+  display: flex;
+  position: relative; /* Position relative to .nengiay */
+
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+.khu33 {
+  background-image: url("../public/goc4.jpeg");
+  height: 80vh;
+  width: 18.05vh;
+  display: flex;
+  position: relative; /* Position relative to .nengiay */
+
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+.khu4 {
+  background-image: url("../public/goc3.jpeg");
+  height: 80vh;
+  width: 34.9vh;
+  display: flex;
+  position: relative; /* Position relative to .nengiay */
+
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+.khu44 {
+  background-image: url("../public/goc3.jpeg");
+  height: 80vh;
+  width: 34.9vh;
+  display: flex;
+  position: relative; /* Position relative to .nengiay */
+
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+.khu5 {
+  background-image: url("../public/goc1.jpeg");
+  height: 80vh;
+  width: 38vh;
+  display: flex;
+  position: relative; /* Position relative to .nengiay */
+
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+.khu55 {
+  background-image: url("../public/goc1.jpeg");
+  height: 80vh;
+  width: 38vh;
+  display: flex;
+  position: relative; /* Position relative to .nengiay */
+
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+.click1 {
+  height: 40vh;
+  width: 15.5vh;
+  margin-left: 2vh;
+
+  position: relative;
+  top: 47%;
+  margin-bottom: 10vh;
+  bottom: 10%;
+}
+
+.click2 {
+  height: 25vh;
+  width: 15.5vh;
+
+  position: relative;
+  top: 40%;
+  margin-bottom: 20vh;
+  bottom: 10%;
+  transform: translateX(-8vh);
+}
+.click3 {
+  height: 18vh;
+  width: 100%;
+
+  position: relative;
+  top: 47%;
+  margin-bottom: 20vh;
+  bottom: 10%;
+}
+.click4 {
+  height: 18vh;
+  width: 13vh;
+
+  position: relative;
+  top: 47%;
+  margin-left: 6vh;
+  margin-bottom: 20vh;
+  bottom: 10%;
+}
+.click5 {
+  height: 20vh;
+  width: 14vh;
+
+  position: relative;
+  top: 47%;
+  margin-bottom: 20vh;
+  bottom: 10%;
+}
+.giohoa {
+  background-image: url("../public/window.png");
+  background-size: cover;
+  height: 8vh;
+  width: 5.1vh;
+  margin-left: 2vh;
+}
+
+.giohoa-active {
+  background-image: url("../public/giohoa.png");
+  height: 8vh;
+  width: 8vh;
+}
+.rectangle {
+  background-image: url("../public/tim.png");
+  height: 4.4vh;
+  background-size: cover;
+  width: 5.4vh;
+  transform: translateX(4vh);
+}
+.text,
+.textline {
+  transform: translate(2.2vh, 1.4vh);
+  color: white;
+  font-weight: 800;
+}
+.textso {
+  transform: translate(1.8vh, 1.1vh);
+  color: white;
+  font-weight: 800;
+}
+.textline {
+  font-size: 5vh;
+  transform: translateX(2.2vh);
+  font-family: "Pixelify Sans", sans-serif;
+}
+.tuong {
+  background-image: url("../public/tuong.jpeg");
+  background-size: cover;
+
+  height: 80vh;
+  width: 144vh;
+  position: relative;
+}
+.nentuong {
+}
+.chuot {
+  height: 8vh;
+  width: 8vh;
+  border: 10px solid rgb(255, 21, 0);
+  border-radius: 50%;
+  margin-left: 1vh;
+}
+.anhchuot {
+  background-image: url("../public/chuot.png");
+  background-size: cover;
+  height: 5vh;
+  width: 5.1vh;
+  margin-left: 1vh;
+  margin-top: 0.8vh;
+}
+.anhnuoc {
+  background-image: url("../public/water.png");
+  background-size: cover;
+  height: 4.7vh;
+  width: 4.5vh;
+  margin-left: 1vh;
+  margin-top: 1vh;
+}
+.anhphanbon {
+  background-image: url("../public/phanbon.png");
+  background-size: cover;
+  height: 4.7vh;
+  width: 4.5vh;
+  margin-left: 1vh;
+  margin-top: 1vh;
+}
+.anhthucan {
+  background-image: url("../public/thucan.png");
+  background-size: cover;
+  height: 4.7vh;
+  width: 4.5vh;
+  margin-left: 1vh;
+  margin-top: 1vh;
+}
+.nuoc {
+  height: 8vh;
+  width: 8vh;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  margin-left: 1vh;
+}
+.phanbon {
+  height: 8vh;
+  width: 8vh;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  margin-left: 1vh;
+}
+.thucan {
+  height: 8vh;
+  width: 8vh;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  margin-left: 1vh;
+}
+.congcu {
+  height: 10vh;
+  width: 37vh;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  margin-left: 5vh;
+  border-radius: 25px;
+  align-items: center;
+  margin-right: 1vh;
+}
+
+.chuot,
+.nuoc,
+.thucan,
+.phanbon {
+  border: 10px solid transparent;
+}
+
+.chuot.active,
+.nuoc.active,
+.thucan.active,
+.phanbon.active {
+  border-radius: 50%;
+  border-color: red;
+}
+.cuahang {
+  height: 13vh;
+
+  width: 10.5vh;
+  margin-left: 0vh;
+
+  position: relative;
+  top: 9%;
+  margin-bottom: 10vh;
+  bottom: 10%;
+}
+.cuahang-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Ensure it's above other components */
+}
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.cuahang-form {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.high {
+  height: 90;
+}

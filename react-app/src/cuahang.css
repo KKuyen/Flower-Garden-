@@ -1,0 +1,130 @@
+.anh {
+  height: 53vh;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anhtrong {
+  height: 51vh;
+  background-color: transparent;
+  width: 80vh;
+  border-radius: 30px;
+  border: 5px solid rgb(114, 5, 117);
+}
+
+.list {
+  margin-top: 1vh;
+  background-color: transparent;
+  height: 25vh;
+  width: calc(100% - 4vh); /* Corrected width calculation */
+  margin-left: 2vh;
+  margin-right: 2vh;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.doituong {
+  background-image: url(../public/paper.png);
+  height: 18vh;
+  width: 23vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  background-size: cover;
+  flex-shrink: 0; /* Prevent shrinking */
+  transition: all 0.3s ease; /* Smooth transition */
+  filter: grayscale(100%);
+}
+
+.doituong.active {
+  width: 27vh; /* Increase width */
+  height: 21vh; /* Increase height */
+  filter: grayscale(0%);
+}
+
+.number {
+  user-select: none;
+  font-size: 2vh;
+  color: rgb(255, 86, 159);
+  font-weight: bold;
+  text-align: left;
+}
+
+.textanh {
+  user-select: none;
+  width: 20.5vh;
+  font-size: 1.5vh;
+
+  text-align: left;
+
+  margin-top: 1vh;
+  color: rgb(30, 30, 30); /* Change the text color to gray */
+  font-family: "Shantell Sans", cursive;
+}
+
+.anhthe {
+  background-image: url(../public/khung.png);
+  background-size: cover;
+  height: 19.5vh;
+  width: 18vh;
+  transition: all 0.3s ease; /* Smooth transition */
+  filter: grayscale(100%);
+}
+
+.anhthe.active {
+  width: 22vh; /* Increase width */
+  height: 22vh; /* Increase height */
+  filter: grayscale(0%);
+}
+
+.anhnoidung {
+  background-image: none;
+  height: 79%;
+  width: 80%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-left: 11%;
+  margin-bottom: 10%;
+  background-size: cover;
+}
+.numberanhchinh {
+  user-select: none;
+  font-size: 4vh;
+  color: rgb(255, 86, 159);
+  font-weight: bold;
+  text-align: left;
+
+  transform: translate(-1.5vh, -4vh);
+  margin-top: 1vh;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+.anhtrongchinh {
+  height: 51vh;
+  background-color: transparent;
+  width: 66vh;
+  justify-self: center;
+  align-self: center;
+  background-size: cover;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+.textanhchinh {
+  user-select: none;
+  width: 56vh;
+  font-size: 3vh;
+  text-align: left;
+  transition: all 0.3s ease; /* Smooth transition */
+
+  margin-right: 5.2vh;
+  color: rgb(30, 30, 30);
+  font-family: "Shantell Sans", cursive;
+}
+.anhthechinh {
+  background-size: cover;
+  height: 48vh;
+  width: 47.8vh;
+  margin-left: 6.3vh;
+  margin-top: 6.5vh;
+}
