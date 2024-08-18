@@ -1,2 +1,1 @@
-Personal web using React 
-Idea: Solar System
+A little gift for my mother's birthday.
